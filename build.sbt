@@ -9,17 +9,15 @@ scalaVersion := "2.10.4"
 
 organization := "com.datastax.examples"
 
-resolvers += "Typesafe Repo" at "http://repo.typesafe.com/typesafe/releases/"
+//resolvers += "Typesafe Repo" at "http://repo.typesafe.com/typesafe/releases/"
 
-libraryDependencies += "org.apache.spark" % "spark-core_2.10" % "1.1.0" % "provided"
+//libraryDependencies += "org.apache.spark" % "spark-core_2.10" % "1.1.0" % "provided"
 
-libraryDependencies += "org.apache.spark" % "spark-streaming_2.10" % "1.1.0" % "provided"
+//libraryDependencies += "org.apache.spark" % "spark-streaming_2.10" % "1.1.0" % "provided"
 
-libraryDependencies += "org.apache.spark" % "spark-sql_2.10" % "1.1.0" % "provided"
+//libraryDependencies += "org.apache.spark" % "spark-sql_2.10" % "1.1.0" % "provided"
 
-libraryDependencies += "com.datastax.spark" %% "spark-cassandra-connector" % "1.1.0" % "provided" withSources() withJavadoc()
-
-libraryDependencies += "com.github.nscala-time" %% "nscala-time" % "1.4.0"
+libraryDependencies += "com.datastax.spark" %% "spark-cassandra-connector" % "1.1.0"
 
 libraryDependencies += "eu.piotrbuda" %% "scalawebsocket" % "0.1.1"
 
